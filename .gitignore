@@ -1,0 +1,9 @@
+*.blend1
+*.zip
+*.7z
+*.ff
+_backup
+_ignored
+model_export/
+zonetool/*
+!zonetool/mod/

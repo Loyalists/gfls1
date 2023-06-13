@@ -1,0 +1,22 @@
+// S1 GSC SOURCE
+// Dumped by https://github.com/xensik/gsc-tool
+
+main()
+{
+    if ( character\gfl\_utility::check_npc_weapon_substr( ["m990"] ) ) 
+    {
+        character\gfl\randomizer_sf_sniper::main();
+    }
+    else 
+    {
+        character\gfl\randomizer_sf_ar::main();
+    }
+    
+    self.voice = "kva";
+}
+
+precache()
+{
+    character\gfl\randomizer_sf_ar::precache();
+    character\gfl\randomizer_sf_sniper::precache();
+}

@@ -16,10 +16,10 @@ Cracked/Pirated copies of the game will not work properly with the mod. If anyth
 4. Launch the game with s1x-gfl.bat.
 
 # Known Issues
-### FOV might be messed up after scripted events (cutscenes, etc) ###
+### FOV might be messed up after scripted events (cutscenes, etc)
 Try using "cg_fov (number)" in the developer console (Press "~" key to enable it!) to revert the FOV to normal or desired value.  
 
-### Game crashes upon starting up ###  
+### Game crashes upon starting up
 1. Go to players2/config.cfg. Locate the parameters below.
 ```
 seta r_preloadShaders "1"
@@ -29,6 +29,16 @@ seta r_preloadShadersAfterCinematic "0"
 ```
 seta r_preloadShaders "0"
 seta r_preloadShadersAfterCinematic "1"
+```
+
+### Game crashes when loading the level
+This problem only occurs in **Induction** and **Utopia**. Follow the steps below before playing in the related levels.
+1. Replace mod.ff with mod_nolod.ff.  
+You may move the original mod.ff to elsewhere and rename the mod_nolod.ff to mod.ff, as the game only reads the fastfile named mod.ff.
+
+2. Go to scripts/gfl.gsc, set the dvar to 1.
+```
+setdvar( "gfl_enable_nolod", 1 );
 ```
 
 # Wiki   

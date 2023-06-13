@@ -18,7 +18,6 @@ Cracked/Pirated copies of the game will not work properly with the mod. If anyth
 # Known Issues
 * FOV might be messed up after scripted events (cutscenes, etc).  
 Try using "cg_fov (number)" in the developer console (Press "~" key to enable it!) to revert the FOV to normal or desired value.  
-For more information about console commands, see [developer console](https://callofduty.fandom.com/wiki/Developer_console).
 
 * Game crashes upon starting up!  
 1. Go to players2/config.cfg. Locate the parameters below.

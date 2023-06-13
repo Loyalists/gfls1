@@ -16,6 +16,7 @@ Cracked/Pirated copies of the game will not work properly with the mod. If anyth
 4. Launch the game with s1x-gfl.bat.
 
 # Wiki   
+[Known Issues](https://github.com/Loyalists/gfls1/wiki/Known-Issues)   
 [Credits](https://github.com/Loyalists/gfls1/wiki/Credits)   
 
 # Showcase

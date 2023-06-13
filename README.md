@@ -8,7 +8,7 @@
 1. Prepare a copy of Call of Duty: Advanced Warfare.  
 Cracked/Pirated copies of the game will not work properly with the mod. If anything wrong is spotted on your end double check if you are running a legal version before opening up an issue.
 
-2. Download the latest [release](https://github.com/Loyalists/gflh1/releases/tag/1.0).  
+2. Download the latest [release](https://github.com/Loyalists/gfls1/releases/tag/1.0).  
 **Do NOT download the repository as ZIP, that won't work, make sure you download the LATEST RELEASE.**
 
 3. Extract the archive and copy the files from the latest release into root folder of the game, where s1_sp64_ship.exe is located.

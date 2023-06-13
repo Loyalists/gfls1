@@ -41,6 +41,18 @@ You may move the original mod.ff to elsewhere and rename the mod_nolod.ff to mod
 setdvar( "gfl_enable_nolod", 1 );
 ```
 
+However nolod version of the mod is not recommended for other situations than playing in **Induction** and **Utopia** level.  
+Due to fact that the game harshly limits how many vertices can be rendered custom models will appear to be **flickering**, especially without proper optimizations like **LOD** which doesn't exist in the nolod version.   
+
+If any heavy **flickering** is spotted in other levels during gameplay with mod_nolod.ff, please revert the steps above by:  
+1. Move back the mod.ff.  
+Rename the mod.ff (aka renamed mod_nolod.ff) to mod_nolod.ff and move the original mod.ff back into mods/gfl folder.
+
+2. Go to scripts/gfl.gsc, set the dvar to 0.
+```
+setdvar( "gfl_enable_nolod", 0 );
+```
+
 # Wiki   
 [Credits](https://github.com/Loyalists/gfls1/wiki/Credits)   
 

@@ -1,10 +1,10 @@
 # gfls1
 [![Discord](https://img.shields.io/discord/725057886958387393?label=Discord&logo=discord)](https://discord.gg/yYQDxkUtkV)
 
-# Requirements
+## Requirements
 [Call of Duty: Advanced Warfare](https://store.steampowered.com/app/209650/) (Steam - PC)  
 
-# Installation
+## Installation
 1. Prepare a copy of Call of Duty: Advanced Warfare.  
 Cracked/Pirated copies of the game will not work properly with the mod. If anything wrong is spotted on your end double check if you are running a legal version before opening up an issue.
 
@@ -15,7 +15,7 @@ Cracked/Pirated copies of the game will not work properly with the mod. If anyth
 
 4. Launch the game with s1x-gfl.bat.
 
-# Known Issues
+## Known Issues
 ### FOV might be messed up after scripted events (cutscenes, etc)
 Try using "cg_fov (number)" in the developer console (Press "~" key to enable it!) to revert the FOV to normal or desired value.  
 
@@ -53,19 +53,19 @@ Rename the mod.ff (aka renamed mod_nolod.ff) to mod_nolod.ff and move the origin
 setdvar( "gfl_enable_nolod", 0 );
 ```
 
-# Wiki   
+## Wiki   
 [Credits](https://github.com/Loyalists/gfls1/wiki/Credits)   
 
-# Showcase
+## Showcase
 [Gallery](https://github.com/Loyalists/gfls1/wiki/Gallery)  
 [Playlist](https://www.youtube.com/playlist?list=PLHUTPjEfLLEKkzo7Bw1UAdDBTkm084g02)   
 
-# Useful links
+## Useful links
 [s1-gsc-dump](https://github.com/mjkzy/s1-gsc-dump)   
 [x64-zt](https://github.com/Joelrau/x64-zt)   
 [zonetool](https://github.com/Joelrau/zonetool)   
 [Greyhound](https://github.com/Scobalula/Greyhound)   
 [Developer console](https://callofduty.fandom.com/wiki/Developer_console)   
 
-# Disclaimer
+## Disclaimer
 The mod is provided as-is and the contributors are not liable for any damage resulting from it. USE IT AT YOUR OWN RISK.
